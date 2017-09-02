@@ -1,21 +1,13 @@
-<!-- site containers -->
-
-
-
-
-#primary-nav *:focus {
-  border-bottom: 1px solid #1825aa;
-  outline: 0;
-  background-color: transparent; }
-  
-  
- <!-- elements -->
 
 body {
   margin: 0;
   padding: 0;
   background: #ccc;
+  
 }
+
+
+<!-- main-nav -->
 
 .main-nav ul {
   list-style: none;
@@ -58,7 +50,14 @@ body {
     font-size: 1.4em;
   }
 
+ <!-- /main-nav -->
+  
  <!-- responsive image code -->
  
  
  <!--  -->
+
+  .h1 {
+  font-size: 50px; }
+  
+  
