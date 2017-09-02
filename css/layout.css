@@ -8,6 +8,10 @@ body {
 
 <!-- main-nav -->
 
+#main-nav {
+  background-color: red;
+}
+
 .main-nav ul {
   list-style: none;
   background-color: #444;
@@ -47,8 +51,12 @@ body {
     height: 50px;
     line-height: 50px;
     font-size: 1.4em;
-  }
+}
 
+.main-nav li {
+    display: inline-block;
+    margin-right: -4px;
+}
  <!-- /main-nav -->
   
  <!-- responsive image code -->
