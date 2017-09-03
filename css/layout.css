@@ -6,7 +6,6 @@ body {
 }
 
 
-<!-- main-nav -->
 
 .main-nav ul {
   list-style: none;
@@ -54,12 +53,7 @@ body {
     display: inline-block;
     margin-right: -4px;
 }
- <!-- /main-nav -->
-  
- <!-- responsive image code -->
  
- 
- <!--  -->
 
   .h1 {
   font-size: 50px; }
