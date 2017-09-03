@@ -20,9 +20,16 @@ body {
   font-size: 1.2em;
   line-height: 40px;
   height: 40px;
-  margin: 10px;
+  padding-bottom: 6px;
   border-bottom: 1px solid #888;
 }
+
+.main-nav li:hover {
+  border-bottom-style: solid;
+  border-bottom-width: 6px;
+  border-bottom-color: red;
+}
+
 .main-nav a {
   text-decoration: none;
   color: #000;
@@ -30,12 +37,6 @@ body {
   display: block;
   border-width: 10px;
   transition: .3s bottom-border-color;
-}
- 
-.main-nav a:hover {
-  border-bottom-style: solid;
-  border-bottom-width: 8px;
-  border-bottom-color: red;
 }
  
 .main-nav a.active {
