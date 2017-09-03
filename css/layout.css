@@ -27,7 +27,8 @@ body {
 
 .main-nav li:hover {
   border-bottom-style: solid;
-  border-bottom-width: 6px;
+  border-bottom-width: 7px;
+  padding-bottom: 0px;
   border-bottom-color: red;
 }
 
