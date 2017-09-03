@@ -34,7 +34,7 @@ body {
 }
  
 .main-nav a.active {
-  background-color: rgb(255, 0, 0);
+  background-color: #ff0000;
   color: #444;
   cursor: default;
 }
