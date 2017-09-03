@@ -25,14 +25,16 @@ body {
 .main-nav a {
   text-decoration: none;
   color: #000;
-  font-size: 10px;
+  font-size: 14px;
   display: block;
   border-width: 10px;
   transition: .3s bottom-border-color;
 }
  
 .main-nav a:hover {
-  border-bottom-color: #005f5f;
+  border-bottom-style: solid;
+  border-bottom-width: 10px;
+  border-bottom-color: red;
 }
  
 .main-nav a.active {
