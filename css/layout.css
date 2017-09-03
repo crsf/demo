@@ -20,6 +20,7 @@ body {
   font-size: 1.2em;
   line-height: 40px;
   height: 40px;
+  margin: 10px;
   border-bottom: 1px solid #888;
 }
 .main-nav a {
@@ -33,7 +34,7 @@ body {
  
 .main-nav a:hover {
   border-bottom-style: solid;
-  border-bottom-width: 10px;
+  border-bottom-width: 8px;
   border-bottom-color: red;
 }
  
