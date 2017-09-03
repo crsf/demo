@@ -12,7 +12,7 @@ body {
   text-align: center;
   padding: 0;
   margin: 0;
-  bottom-border: 1px solid £888;
+  bottom-border: solid 1px #888;
 }
 
 .main-nav li {
