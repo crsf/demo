@@ -22,6 +22,7 @@ body {
 }
 
 #footer-column {
+  display: inline-block;
   float: left; 
   width: 33%;
 }
