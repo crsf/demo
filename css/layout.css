@@ -12,7 +12,7 @@ body {
 }
 
 #footer {
-  background-color: #d21717;
+  
   margin: 0 auto;
   max-width: 800px;
 }
@@ -24,6 +24,9 @@ body {
 #footer-column {
   float: left; 
   width: 33%;
+  background-color: #d21717;
+  margin: 0px;
+  padding: 0px;
 }
   
 .button a {
