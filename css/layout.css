@@ -24,7 +24,7 @@ body {
 
 #footer-column {
   float: left; 
-  max-width: 300px;
+  width: 300px;
 }
   
 .button a {
