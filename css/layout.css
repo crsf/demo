@@ -5,6 +5,26 @@ body {
   
 }
 
+#page-content {
+  margin: 10px;
+  padding: 10px;
+}
+
+#footer {
+  margin: 10px;
+  padding: 10px;
+}
+
+
+.button a {
+  border-radius: 25px;
+  background: red;
+  padding: 20px; 
+}
+
+.button a:hover {
+  background: dark-red;
+}
 
 .main-nav ul {
   list-style: none;
