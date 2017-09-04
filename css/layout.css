@@ -12,8 +12,9 @@ body {
 }
 
 #footer {
-  margin: 10px;
-  padding: 10px;
+  background-color: #d21717;
+  margin: 0 auto;
+  max-width: 800px;
 }
 
 #button {
@@ -110,4 +111,4 @@ body {
   font-size: 18px;
   line-height: 150%;
 }
-  
+ 
