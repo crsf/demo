@@ -92,6 +92,9 @@ body {
     display: inline-block;
     margin-right: -4px;
   }
+  #footer-column {
+    display: inline-block;
+  }
 }
  
 
