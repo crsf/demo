@@ -6,8 +6,8 @@ body {
 }
 
 #page-content {
-  margin: 10px;
-  padding: 10px;
+  margin: 50px;
+  padding: 50px;
 }
 
 #footer {
@@ -17,13 +17,17 @@ body {
 
 
 .button a {
-  border-radius: 25px;
-  background: red;
-  padding: 20px; 
+    border-radius: 25px;
+    background: #d21717;
+    padding: 15px;
+    margin: 20px;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
 }
 
 .button a:hover {
-  background: dark-red;
+  background: red;
 }
 
 .main-nav ul {
