@@ -41,7 +41,8 @@ body {
 
 .main-nav li {
   font-family: 'Verdana', sans-serif;
-  font-size: 18px;
+  font-size: 30px;
+  color: #fff;
   line-height: 40px;
   height: 40px;
   padding-bottom: 6px;
@@ -76,7 +77,12 @@ body {
     height: 50px;
     line-height: 50px;
     font-size: 1.4em;
-}
+  }
+  #page-content {
+    margin: 10px;
+    padding: 0px;
+  }
+  }}
 
 .main-nav li {
     display: inline-block;
@@ -92,11 +98,11 @@ body {
   
 .li {
   font-family: 'Verdana', sans-serif;
-  font-size: 30px
+  font-size: 18px
 }
   
 .p {
   font-family: 'Verdana', sans-serif;
-  font-size: 30px
+  font-size: 18px
 }
   
