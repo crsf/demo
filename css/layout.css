@@ -23,8 +23,8 @@ body {
 }
 
 #footer-column {
-  float: left; 
   width: 300px;
+  vertical-align:top;
 }
   
 .button a {
