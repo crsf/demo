@@ -12,9 +12,9 @@ body {
 }
 
 #footer {
+  overflow: hidden;
   background-color: #d21717;
   margin: 0 auto;
-  max-width: 800px;
 }
 
 #button {
@@ -116,3 +116,16 @@ body {
   line-height: 150%;
 }
  
+
+.footer-contents p {
+  color: #fff;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.footer-contents a {
+  color: #fff;
+  font-size: 18px;
+  line-height: 150%;
+  
+}
