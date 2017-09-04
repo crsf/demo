@@ -80,7 +80,7 @@ body {
     display: inline-block;
     margin-right: -4px;
   }
-  #page-content
+  .page-content
     margin: 50px;
     padding: 50px;
   }
