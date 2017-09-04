@@ -16,6 +16,7 @@ body {
   background-color: #d21717;
   margin: 0 auto;
   margin-top: 30px;
+  text-align: center;
 }
 
 #button {
@@ -25,6 +26,7 @@ body {
 #footer-column {
   width: 300px;
   vertical-align:top;
+  text-align: left;
 }
   
 .button a {
