@@ -6,7 +6,8 @@ body {
 }
 
 #page-content {
-  margin: 0px;
+  margin: 0 auto;
+  max-width: 800px;
   padding: 0px;
 }
 
@@ -24,6 +25,7 @@ body {
     color: #fff;
     font-size: 18px;
     text-decoration: none;
+    white-space: nowrap;
 }
 
 .button a:hover {
@@ -80,26 +82,23 @@ body {
     display: inline-block;
     margin-right: -4px;
   }
-  .page-content
-    margin: 50px;
-    padding: 50px;
-  }
 }
  
 
-.page-content h1 {
+.page-contents h1 {
   font-family: 'Verdana', sans-serif;
   font-size: 50px; 
   color: #d21717;
 }
   
-.li {
+.page-contents li {
   font-family: 'Verdana', sans-serif;
-  font-size: 18px
+  font-size: 18px;
 }
   
-.p {
+.page-contents p {
   font-family: 'Verdana', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+  line-height: 150%;
 }
   
