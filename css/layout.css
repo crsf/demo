@@ -76,11 +76,14 @@ body {
     line-height: 50px;
     font-size: 1.4em;
   }
-}
-  
-.main-nav li {
+  .main-nav li {
     display: inline-block;
     margin-right: -4px;
+  }
+  #page-content
+    margin: 50px;
+    padding: 50px;
+  }
 }
  
 
