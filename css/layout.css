@@ -20,7 +20,11 @@ body {
 #button {
   margin: 10px;
 }
-  
+
+#footer-column {
+  float: left; 
+  width: 33%;
+}
   
 .button a {
     border-radius: 25px;
