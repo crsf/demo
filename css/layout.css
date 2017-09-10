@@ -169,6 +169,7 @@ body {
 
 .scholar {
   border-bottom: 1px solid #aaa;
+  min-height: 500px;
 }
 
 .scholar-img {
