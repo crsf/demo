@@ -6,11 +6,12 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
+  min-height: 100vh;
   flex-direction: column;
 }
 
 .body-content {
-  flex: 1 0 auto;
+  flex: 1;
 }
 
 #page-content {
