@@ -153,6 +153,6 @@ body {
 }
 
 .page-contents img {
-  height=100%;
-  width=auto;
+  height=auto;
+  max-width=100%;
 }
