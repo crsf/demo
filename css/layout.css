@@ -150,3 +150,8 @@ body {
   line-height: 150%;
   
 }
+
+.responsive {
+  height=100%;
+  width=auto;
+}
