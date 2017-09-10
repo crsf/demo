@@ -156,3 +156,14 @@ body {
   height=auto;
   max-width=100%;
 }
+
+.well {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  box-shadow: inset 0 0 10px black, 0 0 10px black;
+  padding: 10px;
+  display: inline-block;
+  margin: 15px;
+  vertical-align: top;
+  text-align: center;
+}
