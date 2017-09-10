@@ -166,3 +166,14 @@ body {
   display: inline-block;
   margin: 15px;
 }
+
+.scholar {
+  border-bottom: 1px solid #aaa;
+}
+
+.scholar-img {
+  height=100%;
+}
+.scholar-details {
+  
+}
