@@ -176,10 +176,11 @@ body {
 }
 #scholar-name {
   float: left;
-  width: 65%
+  width: 65%;
+  padding: 20px;
 }
 #scholar-details {
   min-height: 300px;
   float: left;
-  width: 65%
+  width: 65%;
 }
