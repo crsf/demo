@@ -167,14 +167,14 @@ body {
   margin: 15px;
 }
 
-.scholar {
+#scholar {
   border-bottom: 1px solid #aaa;
   min-height: 500px;
 }
 
-.scholar-img {
+#scholar-img {
   height=100%;
 }
-.scholar-details {
+#scholar-details {
   
 }
