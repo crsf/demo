@@ -169,12 +169,18 @@ body {
 
 #scholar {
   border-bottom: 1px solid #aaa;
-  min-height: 500px;
 }
 
 #scholar-img {
   height=100%;
 }
+#scholar-name {
+  min-height: 300px;
+  float: left;
+  width: 65%
+}
 #scholar-details {
-  
+  min-height: 300px;
+  float: left;
+  width: 65%
 }
