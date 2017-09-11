@@ -186,7 +186,8 @@ body {
 #scholar-name {
   float: left;
   width: 65%;
-  padding: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
 }
 @media screen and (min-width: 743px) {
   #scholar-name {
@@ -199,5 +200,5 @@ body {
   min-height: 300px;
   float: left;
   width: 65%;
-  padding: 20px;
+  padding-left: 20px;
 }
