@@ -1,5 +1,5 @@
 # demo
-Canadian Rhodes website
+Canadian Rhodes Scholars Foundation website
 
 Access live version of website:
 
