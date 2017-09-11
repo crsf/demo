@@ -177,6 +177,12 @@ body {
 #scholar-img {
   height=100%;
 }
+@media screen and (max-width: 818px) {
+  #scholar-name {
+    margin-left: 20px;
+  } 
+}
+
 #scholar-name {
   float: left;
   width: 65%;
