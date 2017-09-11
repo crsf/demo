@@ -188,7 +188,7 @@ body {
   width: 65%;
   padding: 20px;
 }
-@media screen and (min-width: 629px) {
+@media screen and (min-width: 743px) {
   #scholar-name {
     margin-top: -40px;
   } 
