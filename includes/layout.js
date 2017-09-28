@@ -1,3 +1,3 @@
-$('#megamenu').load('/demo/includes/menu.html');
+$('#megamenu').load('/includes/menu.html');
 
-$('#footermenu').load('/demo/includes/footer.html');
+$('#footermenu').load('/includes/footer.html');
