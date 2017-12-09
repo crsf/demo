@@ -47,6 +47,7 @@ body {
     font-size: 18px;
     text-decoration: none;
     white-space: nowrap;
+    display: inline-block;
 }
 
 .button a:hover {
