@@ -213,3 +213,19 @@ body {
   width: 65%;
   padding-left: 20px;
 }
+
+
+<!--
+*new megamenu
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1;
+    text-decoration: none;
+    text-rendering: optimizeLegibility;
+
+:visited
+color: black;
+
+:hover
+text-decoration: underline!important;
+-->
