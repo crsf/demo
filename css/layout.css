@@ -35,11 +35,12 @@ body {
 
 #footer {
   overflow: hidden;
-  background-color: #BD2027;
+  background-color: #dadada;
   margin: 0 auto;
   margin-top: 30px;
   margin-left: -13px;
   text-align: center;
+  border-top: solid 6px #BD2027;
 }
 
 #button {
@@ -202,46 +203,43 @@ body {
 }
 
 .footer p {
-  color: #fff;
   font-size: 18px;
   line-height: 150%;
 }
 
 .footer a {
-  color: #fff;
   font-size: 18px;
   line-height: 150%;
   
 }
 
-.footer-column span {
+.footer-logo span {
   float: left; 
   padding-left: 5px;
 }
 
-.footer-column img {
+.footer-logo img {
   vertical-align: middle;
   float: left;
   display: inline-block;
   padding: 5px;
-  background-color: white;
 }
 
-.footer a {
+.footer-logo a {
   font-size: 30px; 
   vertical-align: middle; 
   font-weight: bold;
   line-height: 1;
   text-decoration: none;
-  color: white;
+  color: #BD2027;
   justify-content: left;
 }
  
-.footer a:visited {
-  color: white;
+.footer-logo a:visited {
+  color: #BD2027;
 }
 
-.footer a:hover {
+.footer-logo a:hover {
   text-decoration: underline;
 }
 
