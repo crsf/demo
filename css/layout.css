@@ -104,8 +104,7 @@ body {
 }
 
 .main-nav li:hover {
-  padding-bottom: 0px;
-  bottom-border: solid 5px white;
+  border-bottom: solid 5px white;
 }
 
 .main-nav a {
