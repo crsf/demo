@@ -37,7 +37,7 @@ body {
   overflow: hidden;
   background-color: #dadada;
   margin: 0 auto;
-  margin-top: 30px;
+  margin-top: 90px;
   margin-left: -13px;
   text-align: center;
   border-top: solid 6px #BD2027;
@@ -48,7 +48,7 @@ body {
 }
 
 #footer-column {
-  width: 300px;
+  width: 390px;
   vertical-align:top;
   text-align: left;
   display: inline-block;
@@ -175,11 +175,13 @@ body {
 .page-contents h1 {
   font-family: 'Verdana', sans-serif;
   font-size: 30px; 
+  margin-top: 50px;
 }
  
 .page-contents h2 {
   font-family: 'Verdana', sans-serif;
   font-size: 25px; 
+  margin-top: 50px;
 }
 
 .page-contents li {
