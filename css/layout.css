@@ -64,6 +64,8 @@ body {
   padding: 0;
   margin: 0;
   border-bottom: solid 6px #BD2027;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .logo span {
