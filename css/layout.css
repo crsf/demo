@@ -12,6 +12,7 @@ body {
 
 .body-content {
   flex: 1;
+  margin-left: 13px;
 }
 
 #page-content {
