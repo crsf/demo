@@ -115,7 +115,7 @@ body {
 }
 
 .main-nav li:hover {
-  border-bottom: solid 5px white;
+  box-shadow: 0 -6px 0 white;
 }
 
 .main-nav a {
