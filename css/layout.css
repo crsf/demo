@@ -235,6 +235,8 @@ body {
   text-decoration: none;
   color: #BD2027;
   justify-content: left;
+  display: flex;
+  align-items: center;
 }
  
 .footer-logo a:visited {
