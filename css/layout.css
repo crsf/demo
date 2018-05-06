@@ -59,10 +59,10 @@ body {
 
 .main-nav ul {
   list-style: none;
-  background-color: #d21717;
   text-align: center;
   padding: 0;
   margin: 0;
+  border-bottom: solid 6px #BD2027;
 }
 
 
@@ -71,7 +71,6 @@ body {
   font-size: 30px;
   line-height: 40px;
   height: 40px;
-  border-bottom: 1px solid #888;
   transition: .3s background-color;
 }
 
