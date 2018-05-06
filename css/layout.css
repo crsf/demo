@@ -127,6 +127,7 @@ body {
   display: flex;
   align-items: center;
   border-width: 10px;
+  justify-content: center;
 }
 
 .main-nav a.active {
