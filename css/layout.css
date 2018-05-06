@@ -63,8 +63,8 @@ body {
   text-align: center;
   padding: 0;
   margin: 0;
-  bottom-border: solid 1px #888;
 }
+
 
 .main-nav li {
   font-family: 'Verdana', sans-serif;
@@ -77,20 +77,20 @@ body {
 
 .main-nav li:hover {
   padding-bottom: 0px;
-  background-color: red;
+  bottom-border: solid 5px white;
 }
 
 .main-nav a {
   text-decoration: none;
   color: #fff;
   font-size: 18px;
-  display: block;
+  display: flex;
+  align-items: center;
   border-width: 10px;
 }
- 
+
 .main-nav a.active {
-  background-color: #ff0000;
-  color: #444;
+  color: #BD2027;
   cursor: default;
 }
 
