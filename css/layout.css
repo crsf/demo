@@ -39,8 +39,10 @@ body {
   margin: 0 auto;
   margin-top: 90px;
   margin-left: -13px;
+  margin-right: -13px;
   text-align: center;
   border-top: solid 6px #BD2027;
+  justify-content: center;
 }
 
 #button {
