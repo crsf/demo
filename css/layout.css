@@ -15,6 +15,11 @@ body {
   margin-left: 13px;
 }
 
+#megamenu {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
 #page-content {
   margin: 0 auto;
   max-width: 800px;
