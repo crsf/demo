@@ -13,6 +13,7 @@ body {
 .body-content {
   flex: 1;
   margin-left: 13px;
+  margin-right: 13px;
 }
 
 #megamenu {
