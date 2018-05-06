@@ -65,7 +65,34 @@ body {
   border-bottom: solid 6px #BD2027;
 }
 
+.logo span {
+  float: left; 
+  padding-left: 5px;
+}
 
+.logo img {
+  vertical-align: middle;
+  float: left;
+  display: inline-block;
+}
+
+.logo a {
+  font-size: 30px; 
+  vertical-align: middle; 
+  font-weight: bold;
+  line-height: 1;
+  text-decoration: none;
+  color:#BD2027;
+}
+ 
+.logo a:visited {
+  color: #BD2027;
+}
+
+.logo a:hover {
+  text-decoration: underline;
+}
+  
 .main-nav li {
   font-family: 'Verdana', sans-serif;
   font-size: 30px;
