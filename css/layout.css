@@ -50,6 +50,8 @@ body {
   width: 300px;
   vertical-align:top;
   text-align: left;
+  display: flex;
+  align-items: 
 }
 
 #well-text {
@@ -153,7 +155,7 @@ body {
     margin-right: -4px;
   }
   #footer-column {
-    display: inline-block;
+    display: flex;
   }
 }
  
@@ -205,6 +207,37 @@ body {
   font-size: 18px;
   line-height: 150%;
   
+}
+
+.footer-column span {
+  float: left; 
+  padding-left: 5px;
+}
+
+.footer-column img {
+  vertical-align: middle;
+  float: left;
+  display: inline-block;
+  padding: 5px;
+  background-color: white;
+}
+
+.footer a {
+  font-size: 30px; 
+  vertical-align: middle; 
+  font-weight: bold;
+  line-height: 1;
+  text-decoration: none;
+  color: white;
+  justify-content: left;
+}
+ 
+.footer a:visited {
+  color: white;
+}
+
+.footer a:hover {
+  text-decoration: underline;
 }
 
 .page-contents img {
