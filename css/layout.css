@@ -37,12 +37,17 @@ body {
   overflow: hidden;
   background-color: #dadada;
   margin: 0 auto;
-  margin-top: 90px;
+  margin-top: 40px;
   margin-left: -13px;
   margin-right: -13px;
   text-align: center;
   border-top: solid 6px #BD2027;
   justify-content: center;
+}
+
+.footer-container {
+ max-width: 800px;
+    margin: auto; 
 }
 
 #button {
