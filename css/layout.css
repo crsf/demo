@@ -43,6 +43,7 @@ body {
   text-align: center;
   border-top: solid 6px #BD2027;
   justify-content: center;
+  box-shadow: 0 50vh 0 50vh #000;
 }
 
 .footer-container {
