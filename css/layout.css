@@ -298,6 +298,20 @@ body {
   } 
 }
 
+@media screen and (max-width: 690px) {
+  #privacy-policy-in-footer {
+    margin-top: 17px;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  #privacy-policy-in-footer {
+    float: left;
+    margin-left: 10px;
+    margin-top: 0px;
+  }
+}
+
 #scholar-details {
   min-height: 300px;
   float: left;
