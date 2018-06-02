@@ -301,7 +301,7 @@ body {
 
 @media screen and (max-width: 690px) {
   #privacy-policy-in-footer {
-    margin-top: 17px;
+    margin-top: 17px!important;
   }
 }
 
