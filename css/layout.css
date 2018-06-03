@@ -305,6 +305,14 @@ body {
   }
 }
 
+@media screen and (max-width: 465px) {
+  #privacy-policy-in-footer {
+    float: left;
+    margin-left: 10px;
+    margin-top: 0px;
+  }
+}
+
 @media screen and (max-width: 406px) {
   .main-nav li {
     margin-left: 20px;
