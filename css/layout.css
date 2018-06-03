@@ -303,12 +303,14 @@ body {
 @media screen and (min-width: 690px) {
   #privacy-policy-in-footer {
     margin-top: -60px;
+    float: right;
   }
 }
 
 @media screen and (max-width: 690px) {
   #privacy-policy-in-footer {
     margin-top: 17px;
+    float: right;
   }
 }
 
