@@ -299,9 +299,16 @@ body {
   } 
 }
 
+
+@media screen and (min-width: 690px) {
+  #privacy-policy-in-footer {
+    margin-top: -60px;
+  }
+}
+
 @media screen and (max-width: 690px) {
   #privacy-policy-in-footer {
-    margin-top: 17px!important;
+    margin-top: 17px;
   }
 }
 
