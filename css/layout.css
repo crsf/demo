@@ -293,6 +293,11 @@ body {
   width: 65%;
   padding-top: 20px;
 }
+
+#privacy-policy-in-footer {
+  vertical-align: text-bottom;
+}
+
 @media screen and (min-width: 743px) {
   #scholar-name {
     margin-top: -40px;
