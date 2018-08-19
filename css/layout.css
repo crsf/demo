@@ -194,7 +194,7 @@ body {
 .scholar-name h2 {
   font-family: 'Verdana', sans-serif;
   font-size: 25px; 
-  margin-top: 10px;
+  margin-top: 10px!important;
 }
 
 .page-contents li {
