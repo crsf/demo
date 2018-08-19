@@ -357,7 +357,7 @@ body {
     background-color: #d21717;
 }
 
-.content {
+.collapsible-content {
     padding: 0 18px;
     max-height: 0;
     overflow: hidden;
