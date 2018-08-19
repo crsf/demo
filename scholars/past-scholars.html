@@ -46,8 +46,10 @@
   <div class="breadcrumb"><a href="/scholars.html">Scholars</a></div>
 	 	<h1>Past scholars</h1>
 		
-    <h2>2017</h2>
-		<div id="scholar">
+		<p>Collapsible Set:</p>
+			<button class="collapsible">Canadian Rhodes Scholars 2017</button>
+		<div class="content">
+		  <div id="scholar">
 			<div id="scholar-img">
 				<img src="/img/Cock_200x275.jpg" title="Joe Cock">
 			</div>
@@ -64,7 +66,10 @@
 			</div>
 			
 		</div>
-		<div id="scholar">	
+		</div>
+		<button class="collapsible">Canadian Rhodes Scholars 2016</button>
+		<div class="content">
+		  <div id="scholar">	
 			<div id="scholar-img">
 				<img src="/img/Prashant_200x275.jpg" title="Prashant Pandey">
 			</div>
@@ -78,9 +83,9 @@
 			</div>
 			<div id="scholar-details">
 				<p>Mr. Pandey graduated from Oxford with a Master's in Engineering, having obtained first class honours. He is pursuing a PhD in Biomedical Engineering at the University of British Columbia (UBC). His research is in the field of medical imaging and computer vision, developing a surgical navigation system to guide doctors during pelvic fracture surgeries. Mr. Pandey chose UBC for his graduate studies because of its emphasis on collaborative training and research. He considers himself fortunate to work closely with surgeons on clinical problems, which is unlike most engineering programs. He says his future is committed to solving real problems, to the benefit patients and clinicians alike.</p>
-			</div>
+		   </div>
 		</div>
-		<div id="scholar">
+		   <div id="scholar">
 			<div id="scholar-img">
 				<img src="/img/Seccombe_200x275.jpg" title="Anna Seccombe">
 			</div>
@@ -97,12 +102,33 @@
 				<p>She is studying for a Master’s degree in History at the University of Toronto, working on the theory and sociology of diasporas. Her research will be on the politics of nationalism among immigrants to Canada in the mid- to late twentieth century, for which she looks forward to interviewing Ukrainians, in Toronto. She write that she is excited to make use of all the resources that the University of Toronto has to offer, to learn in an environment with such a global outlook, and to live in one of the most diverse and international cities in the world.</p>
 				<p>Anna will return to the UK to pursue a career in the law.</p>
 			</div>
+		    </div>
 		</div>
+		
+		
 	</div>
 	    <div id='footermenu'></div>
 		
     </main>
 </div>
+	
+	
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
 </body>
 	
 </html>
