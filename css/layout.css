@@ -309,6 +309,12 @@ body {
   } 
 }
 
+@media screen and (min-width: 654px) {
+  #scholar-details {
+    width: 65%;
+  }
+}
+
 
 @media screen and (min-width: 690px) {
   #privacy-policy-in-footer {
@@ -342,7 +348,6 @@ body {
 #scholar-details {
   min-height: 300px;
   float: left;
-  width: 65%;
   padding-left: 20px;
 }
 #past-scholar-details {
