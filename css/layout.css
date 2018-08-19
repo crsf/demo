@@ -276,6 +276,11 @@ body {
   margin-bottom: 20px;
 }
 
+#scholar-break {
+  border-bottom: 1px solid #aaa;
+  width: 100%;
+}
+
 #scholar-img {
   height=100%;
   padding-top: 10px;
