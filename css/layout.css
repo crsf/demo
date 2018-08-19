@@ -191,6 +191,11 @@ body {
   font-size: 25px; 
   margin-top: 50px;
 }
+.scholar-name h2 {
+  font-family: 'Verdana', sans-serif;
+  font-size: 25px; 
+  margin-top: 10px;
+}
 
 .page-contents li {
   font-family: 'Verdana', sans-serif;
