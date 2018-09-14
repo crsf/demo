@@ -300,7 +300,7 @@ body {
 
 @media screen and (min-width: 699px) {
   #scholar-name {
-    padding: 20px;
+    /* padding: 20px; */
     margin-left: 20px;
   }
   #history-section {
@@ -438,6 +438,34 @@ body {
   .history-section-img {
     margin:0px;
   }
+
+}
+
+
+blockquote {
+  border-top: grey 3px solid;
+  content: "hi";
+  border-bottom: grey 1px solid;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-family: 'Verdana', sans-serif;
+  font-size: 18px;
+}
+
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  text-align: center;
+  display: block;
+  padding-top:20px;
+  font-family: times new roman;
+}
+
+blockquote p {
+  display: block;
+
 
 }
 
