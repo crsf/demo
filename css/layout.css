@@ -48,7 +48,7 @@ body {
 
 .footer-container {
  max-width: 800px;
-    margin: auto; 
+    margin: auto;
 }
 
 #button {
@@ -65,7 +65,7 @@ body {
 
 #well-text {
 }
-  
+
 .button a {
     border-radius: 25px;
     background: #d21717;
@@ -94,7 +94,7 @@ body {
 }
 
 .logo span {
-  float: left; 
+  float: left;
   padding-left: 5px;
 }
 
@@ -105,8 +105,8 @@ body {
 }
 
 .logo a {
-  font-size: 30px; 
-  vertical-align: middle; 
+  font-size: 30px;
+  vertical-align: middle;
   font-weight: bold;
   line-height: 1;
   text-decoration: none;
@@ -115,7 +115,7 @@ body {
   display: flex;
   align-items: center;
 }
- 
+
 .logo a:visited {
   color: #BD2027;
 }
@@ -123,7 +123,7 @@ body {
 .logo a:hover {
   text-decoration: underline;
 }
-  
+
 .main-nav li {
   font-family: 'Verdana', sans-serif;
   font-size: 30px;
@@ -154,7 +154,7 @@ body {
   cursor: default;
 }
 
- 
+
 @media screen and (min-width: 600px) {
   .main-nav li {
     width: 120px;
@@ -172,28 +172,30 @@ body {
     display: inline-block;
   }
 }
- 
+
+
+
 
 @media screen and (min-width: 900px) {
   #page-content {
     min-height: 474px
-  } 
+  }
 }
 
 .page-contents h1 {
   font-family: 'Verdana', sans-serif;
-  font-size: 30px; 
+  font-size: 30px;
   margin-top: 50px;
 }
- 
+
 .page-contents h2 {
   font-family: 'Verdana', sans-serif;
-  font-size: 25px; 
+  font-size: 25px;
   margin-top: 50px;
 }
 .scholar-name h2 {
   font-family: 'Verdana', sans-serif;
-  font-size: 25px; 
+  font-size: 25px;
   margin-top: 10px!important;
 }
 
@@ -202,14 +204,14 @@ body {
   font-size: 18px;
   line-height: 150%;
 }
-  
+
 .page-contents p {
   font-family: 'Verdana', sans-serif;
   font-size: 18px;
   line-height: 150%;
   margin: 18px;
 }
- 
+
 .well-text p {
   font-family: 'Verdana', sans-serif;
   font-size: 18px;
@@ -225,11 +227,11 @@ body {
 .footer a {
   font-size: 18px;
   line-height: 150%;
-  
+
 }
 
 .footer-logo span {
-  float: left; 
+  float: left;
   padding-left: 5px;
 }
 
@@ -241,8 +243,8 @@ body {
 }
 
 .footer-logo a {
-  font-size: 30px; 
-  vertical-align: middle; 
+  font-size: 30px;
+  vertical-align: middle;
   font-weight: bold;
   line-height: 1;
   text-decoration: none;
@@ -251,7 +253,7 @@ body {
   display: flex;
   align-items: center;
 }
- 
+
 .footer-logo a:visited {
   color: #BD2027;
 }
@@ -295,7 +297,7 @@ body {
   #scholar-name {
     padding: 20px;
     margin-left: 20px;
-  } 
+  }
 }
 
 #scholar-name {
@@ -311,7 +313,7 @@ body {
 @media screen and (min-width: 743px) {
   #scholar-name {
     margin-top: -40px;
-  } 
+  }
 }
 
 @media screen and (min-width: 654px) {
@@ -385,6 +387,27 @@ body {
     background-color: #f1f1f1;
 }
 
+@media screen and (max-width: 597px) {
+  #scholar-name p {
+    margin:0px;
+  }
+  #scholar-name h2 {
+    margin-top:10px;
+  }
+  #scholar-details p {
+    margin:0px;
+  }
+  #scholar-details {
+    padding-left:0px;
+  }
+  #past-scholar-details {
+    padding-left:0px;
+  }
+  #past-scholar-details p {
+    margin:0px;
+  }
+
+}
 
 <!--
 *new megamenu
