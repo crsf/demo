@@ -193,7 +193,12 @@ body {
   font-size: 25px;
   margin-top: 50px;
 }
-.scholar-name h2 {
+.scholar-name h2, .history-section h2 {
+  font-family: 'Verdana', sans-serif;
+  font-size: 25px;
+  margin-top: 10px!important;
+}
+.history-section h2 {
   font-family: 'Verdana', sans-serif;
   font-size: 25px;
   margin-top: 10px!important;
@@ -209,7 +214,7 @@ body {
   font-family: 'Verdana', sans-serif;
   font-size: 18px;
   line-height: 150%;
-  margin: 18px;
+  margin: 18px 18px 18px 0px;
 }
 
 .well-text p {
@@ -298,20 +303,36 @@ body {
     padding: 20px;
     margin-left: 20px;
   }
+  #history-section {
+    padding: 0px;
+    margin-left: 0px;
+  }
+  .history-section-img {
+    padding: 0px;
+    margin-left: 0px;
+  }
 }
+
+
 
 #scholar-name {
   float: left;
   width: 65%;
   padding-top: 20px;
 }
+#history-section {
+  float: left;
+  clear:both;
+  padding-top: 50px;
+}
+
 
 #privacy-policy-in-footer {
   vertical-align: text-bottom;
 }
 
 @media screen and (min-width: 743px) {
-  #scholar-name {
+  #scholar-name, #history-section {
     margin-top: -40px;
   }
 }
@@ -387,15 +408,22 @@ body {
     background-color: #f1f1f1;
 }
 
+#history-section p {
+  margin-left:0px;
+  margin-right:0px;
+}
+
 @media screen and (max-width: 597px) {
-  #scholar-name p {
-    margin:0px;
+  #scholar-name p, #history-section p {
+    margin-left:0px;
+    margin-right:0px;
   }
-  #scholar-name h2 {
+  #scholar-name h2, #history-section h2 {
     margin-top:10px;
   }
   #scholar-details p {
-    margin:0px;
+    margin-left:0px;
+    margin-right:0px;
   }
   #scholar-details {
     padding-left:0px;
@@ -404,9 +432,18 @@ body {
     padding-left:0px;
   }
   #past-scholar-details p {
+    margin-left:0px;
+    margin-right:0px;
+  }
+  .history-section-img {
     margin:0px;
   }
 
+}
+
+.topicTitle {
+  font-size:30px!important;
+  padding-top:10px;
 }
 
 <!--
