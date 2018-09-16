@@ -82,6 +82,14 @@ body {
   background: red;
 }
 
+#secondary-button {
+  background: #d21717;
+}
+
+#secondary-button:hover {
+  background: grey;
+}
+
 .main-nav ul {
   list-style: none;
   text-align: center;
