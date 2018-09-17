@@ -500,6 +500,15 @@ abbr
 	-webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
 
+.breadcrumb {
+  padding-top:10px;
+}
+
+.breadcrumb:before {
+    content: "<";
+    margin-right: 6px;
+}
+
 <!--
 *new megamenu
     font-size: 30px;
