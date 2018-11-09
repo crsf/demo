@@ -509,8 +509,8 @@ abbr
     margin-right: 6px;
 }
 
-<!--
-*new megamenu
+
+/*new megamenu
     font-size: 30px;
     font-weight: bold;
     line-height: 1;
@@ -522,7 +522,7 @@ color: black;
 
 :hover
 text-decoration: underline!important;
--->
+*/
 
 /*
  * Class for elements that are only visible to the screen reader. From
