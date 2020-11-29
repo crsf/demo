@@ -27,13 +27,7 @@
     </script>
     <!-- stylesheets -->
     <link rel="stylesheet" href="css/layout.css">
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-    <script>
-	$(function(){
-	  $("#megamenu").load("/includes/menu.html");
-	  $("#footermenu").load("/includes/footer.html");
-	});
-    </script>
+    <!-- <script src="https://code.jquery.com/jquery-1.10.2.js"></script> -->
     <!-- Analytics tracking -->
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -48,7 +42,24 @@
 <body>
   <a href="#maincontent" class="visually-hidden visible-when-focused bypass-block-link">Skip to main content</a>
     <!--nav bar-->
-	<div id='megamenu'></div>
+    <div class="main-nav">
+      <!--<img title="logo" src="demo/img/logo.png"> <!-- upload the image!!! -->
+    
+      <div class="logo">
+                <a href="index.html" title="Oxford-Canada Scholarship homepage" id="logo" class="content">
+                <img src="http://oxford-canada.org/img/Logo.png" width="80" height="80" alt="Oxford-Canada Scholarship logo"> <span>Oxford-Canada Scholarship</span>
+                </a>
+    
+          </div>
+      <ul class="menu-items">
+        <li><a href="http://oxford-canada.org/apply.html">Apply</a></li>
+        <li><a href="http://oxford-canada.org/donate.html">Donate</a></li>
+        <li><a href="http://oxford-canada.org/scholars.html">Scholars</a></li>
+        <li><a href="http://oxford-canada.org/about.html">About</a></li>
+        <li><a href="http://oxford-canada.org/contact.html">Contact us</a></li>
+      </ul>
+    </div>
+    
 
     <main class="body-content" id="main-content">
 	<div class="page-contents" id="page-content">
@@ -90,8 +101,16 @@
 	</div>
 
 
-	    <div id='footermenu'></div>
-
+  <div class="footer" id="footer">
+    <div class="footer-container">
+    <div class="footer-logo">
+      <a href="http://oxford-canada.org/index.html" title="Oxford-Canada Scholarship homepage" class="content" style="float:left;">
+      <img src="http://oxford-canada.org/img/Logo.png" width="80" height="80" alt="Oxford-Canada Scholarship logo"> <span>Oxford-Canada Scholarship</span>
+      </a>
+    </div>
+    <p style="float:left; margin-left: 10px;">2018 © Canadian Rhodes Scholars Foundation</p>
+    <a id="privacy-policy-in-footer" href="http://oxford-canada.org/privacy-policy.html">Privacy policy</a>
+    </div></div>
     </main>
 
     <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js'></script>
