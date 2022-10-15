@@ -563,3 +563,20 @@ text-decoration: underline!important;
 	padding: 0.2em;
 	z-index: 10;
 }
+
+
+/*2 column layout*/
+.column-2 {
+  float: left;
+  width: 50%;
+}
+.column-3 {
+  float: left;
+  width: 33%;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
