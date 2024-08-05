@@ -28,6 +28,26 @@
       {
         "@context" : "http://schema.org",
         "@type" : "Person",
+        "name" : "Ruth Arnold",
+        "description" : "Oxford-Canada Scholar 2024",
+        "image" : "https://oxford-canada.org/img/Arnold_200x275.png",
+        "alumniOf" : {
+          "@type" : "EducationalOrganization",
+          "name" : "Pembroke College,",
+          "parentOrganization" : {
+            "@type" : "CollegeOrUniversity",
+            "name" : "Oxford University"
+          }
+         },
+         "knowsAbout" : "Oceans and Fisheries",
+         "worksFor" : {
+          "@type" : "CollegeOrUniversity",
+          "name" : "University of British Columbia"
+         }
+      },
+      {
+        "@context" : "http://schema.org",
+        "@type" : "Person",
         "name" : "Sanaa Mughal",
         "description" : "Oxford-Canada Scholar 2023",
         "image" : "https://oxford-canada.org/img/Sanaa_200x275.png",
@@ -607,7 +627,34 @@
     <p>In addition to our current scholars, we are grateful that a number of our past scholars have allowed us to post notes on their academic and subsequent careers.  While only a few of the over 100 scholars, whom the Foundation has sponsored since 1956, they give some insight into the wide range of disciplines and subsequent contributions of our alumni.</p>
 
     <h2>Current scholars</h2>
-    
+
+<div id="scholar">
+			<div id="scholar-img">
+				<img src="img/Arnold_200x275.png" alt="Ruth Arnold">
+			</div>
+			<div id="scholar-name">
+				<h2>Ruth Arnold</h2>
+				<p>Pembroke College, Oxford, 2024</p>
+				<ul>
+					<li><strong>Research focus:</strong> Master of Science in
+Oceans and Fisheries</li>
+					<li><strong>University:</strong> University of British Columbia</li>
+				</ul>
+			</div>
+			<div id="scholar-details">
+        <p>In 2024, Ms Arnold completed her Oxford MBiol with First
+Class Honours. Currently, she is working on an MSc in
+Oceans and Fisheries at UBC. She is studying marine
+protected areas and fisheries management with a focus on
+seahorses as an indicator of ocean health. Her career goal is
+help to restore healthy relationships between marine
+ecosystems, the essential services they provide and those
+who rely on them. Following her Msc, she expects either to
+pursue a PhD or to move directly into a conservation
+management role.</p>
+			</div>
+		</div>
+		<div id="scholar-break"></div>
     <div id="scholar">
 			<div id="scholar-img">
 				<img src="img/sanaa_200x275.png" alt="Sanaa Mughal">
@@ -639,9 +686,13 @@
 			</div>
 		</div>
 
-    <div id="scholar-break"></div>
+    
 
-    <div id="scholar">
+		<h2>Past scholars</h2>
+		
+		<button class="collapsible">Oxford-Canada Scholars 2022</button>
+  		<div class="collapsible-content">
+        <div id="scholar">
 			<div id="scholar-img">
 				<img src="img/sharpe_200x275.jpg" alt="Ava Sharpe">
 			</div>
@@ -669,11 +720,8 @@
           and to work as a professional historian.</p>
 			</div>
 		</div>
-
-		<h2>Past scholars</h2>
-		
-		
-		<button class="collapsible">Oxford-Canada Scholars 2020</button>
+		</div>
+		<button class="collapsible">Oxford-Canada Scholars 2021</button>
   		<div class="collapsible-content">
         <div id="scholar">
           <div id="scholar-img">
@@ -694,8 +742,9 @@
               higher education for disadvantaged students.</p>
           </div>
         </div>
-
-        <div id="scholar-break"></div>
+		</div>
+		<button class="collapsible">Oxford-Canada Scholars 2020</button>
+  		<div class="collapsible-content">
 
 			 <div id="scholar">
 				<div id="scholar-img">
