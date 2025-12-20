@@ -1,2 +1,4 @@
 vid/video1 filter=lfs diff=lfs merge=lfs -text
 vid/video1.mov filter=lfs diff=lfs merge=lfs -text
+video_ruth_arnold.mp4 filter=lfs diff=lfs merge=lfs -text
+/vid/video_ruth_arthnold.mp4 filter=lfs diff=lfs merge=lfs -text
