@@ -82,6 +82,35 @@
 
     <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js'></script>
     <script type='text/javascript' src='js/touchHover.js'></script>
+	<script type='text/javascript'>// 1. Initialize the player without a source
+		var player = videojs('my-video');
+		
+		// 2. Fetch the video file manually
+		console.log("Starting manual download...");
+		
+		fetch('https://media.githubusercontent.com/media/crsf/demo/master/vid/Video_ruth_arnold.MP4')
+		  .then(response => {
+		    if (!response.ok) throw new Error('Network response was not ok');
+		    return response.blob(); // This waits for the full download
+		  })
+		  .then(blob => {
+		    console.log("Download complete. Creating Blob URL.");
+		    
+		    // 3. Create a local URL for the downloaded data
+		    const objectURL = URL.createObjectURL(blob);
+		    
+		    // 4. Load that URL into Video.js
+		    player.src({
+		      type: 'video/mp4',
+		      src: objectURL
+		    });
+		    
+		    player.load();
+		  })
+		  .catch(error => {
+		    console.error('Fetch error:', error);
+		  });
+	</script>
 	<script src="js/video.min.js"></script>
 </body>
 
