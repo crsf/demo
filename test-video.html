@@ -56,8 +56,7 @@
    	<video
 	    id="test-video"
 	    class="video-js"
-	    controls
-	    preload="auto"
+	    controls preload="auto"
 	    width="640"
 	    height="264"
 	    poster=""
@@ -69,7 +68,7 @@
 
 	<script>
 	  // Add an event listener to log if the browser even tries to load
-	  const v = document.getElementById('test-vid');
+	  const v = document.getElementById('test-video');
 	  v.addEventListener('loadstart', () => console.log('Browser started loading video...'));
 	  v.addEventListener('error', (e) => console.error('Video Error:', v.error));
 	</script>
