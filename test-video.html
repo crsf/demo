@@ -5,14 +5,11 @@
     <!-- META tags-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test video - Oxford-Canada Scholarship</title>
-    <meta name="description" content="Apply for the Oxford to Canada (Oxford-Canada) Scholarship">
-    <!-- schema.org tags-->
-    <script type="application/ld+json">
-    </script>
+    <title>Shuranjeet Takhar - Interview with an Oxford-Canada scholar - Oxford-Canada Scholarship</title>
+    <meta name="description" content="">
+	<meta name="robots" content="noindex, nofollow">
     <!-- stylesheets -->
     <link rel="stylesheet" href="css/layout.css">
-	<link rel="stylesheet" href="css/video-js.css">
     <!-- <script src="https://code.jquery.com/jquery-1.10.2.js"></script> -->
     <!-- Analytics tracking -->
     <script>
@@ -50,22 +47,12 @@
     
 
     <main class="body-content" id="main-content">
-	<div class="page-contents" id="page-content">
-
-    <h1 id="maincontent" tabindex="-1">Test video</h1>
-   	<video
-	    id="test-video"
-	    class="video-js"
-	    controls preload="auto"
-	    width="640"
-	    height="264"
-	    poster=""
-	    data-setup="{}"
-	  >
-	    <source src="https://crsf.github.io/demo/vid/Video_ruth_arnold.MP4" type="video/mov" />
-	    <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that<a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
-	  </video>
-	</div>
+		<div class="page-contents" id="page-content">
+	
+	    	<h1 id="maincontent" tabindex="-1">Shuranjeet Takhar - Interview with an Oxford-Canada scholar</h1>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/mCDCDOXnIc0?si=ke4thGWGPBErLtBK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	   	
+		</div>
 
 
   <div class="footer" id="footer">
@@ -82,37 +69,6 @@
 
     <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js'></script>
     <script type='text/javascript' src='js/touchHover.js'></script>
-	<script src="js/video.min.js"></script>
-	<script type='text/javascript'>// 1. Initialize the player without a source
-		var player = videojs('test-video');
-		
-		// 2. Fetch the video file manually
-		console.log("Starting manual download...");
-		
-		fetch('https://media.githubusercontent.com/media/crsf/demo/master/vid/Video_ruth_arnold.MP4')
-		  .then(response => {
-		    if (!response.ok) throw new Error('Network response was not ok');
-		    return response.blob(); // This waits for the full download
-		  })
-		  .then(blob => {
-		    console.log("Download complete. Creating Blob URL.");
-		    
-		    // 3. Create a local URL for the downloaded data
-		    const objectURL = URL.createObjectURL(blob);
-		    
-		    // 4. Load that URL into Video.js
-		    player.src({
-		      type: 'video/mp4',
-		      src: objectURL
-		    });
-		    
-		    player.load();
-		  })
-		  .catch(error => {
-		    console.error('Fetch error:', error);
-		  });
-	</script>
-	
 </body>
 
 </html>
